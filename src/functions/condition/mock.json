@@ -1,0 +1,6 @@
+{
+  "headers": {
+    "Content-Type": "application/json"
+  },
+  "body": "{\"label\": \"Acanthosis nigricans\",\"synonyms\": [\"Acanthosis nigricans\",\"Keratosis nigricans\"]}"
+}
