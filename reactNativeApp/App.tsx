@@ -145,7 +145,11 @@ const {styles} = StyleSheet.create({
     fontStyle: 'normal',
     fontSize: 14,
     lineHeight: 19,
+    marginTop: 11.58,
     color: '#000',
+    '@media (min-width: 1024px)': {
+      marginTop: 9,
+    },
   },
   snippet: {
     fontWeight: '400',
