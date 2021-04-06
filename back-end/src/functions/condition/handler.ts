@@ -9,7 +9,7 @@ import schema from './schema';
 
 const condition: ValidatedEventAPIGatewayProxyEvent<typeof schema> = async (event) => {
   return formatJSONResponse({
-    conditions,
+    "conditions": conditions.conditions,
     event,
   });
 }
